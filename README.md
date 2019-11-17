@@ -25,7 +25,7 @@
 int last = s.length(); //调用方法计算诗歌长度 for(int i = last - 7; i > 0; i-=7) { if(i%14==0) { s.insert(i,'。'); s.insert(i+1,'\n'); } else s.insert(i,'，'); } //运用for函数每隔7字加，每隔十四字加。 StringTokenizer a = new StringTokenizer(d,j); int number = a.countTokens(); while(a.hasMoreTokens()) { String k = a.nextToken(); //用于查询字出现的次数 public class A extends Exception { public A(){ } public A(String str) { super (str); } } //用于反应异常 try { changhenge=new Changhenge(b); if (b=="") { throw new A("不能输入空字符"); //抛出异常提示 } else { System.out.print(changhenge); } } catch(A r) { r.printStackTrace(); 
 四 运行结果图
 1.空字符 https://github.com/Sudoowodo/-/blob/master/5fedde604596a9a31de847b7c17b73f.png
-2.断句
+2.断句https://github.com/Sudoowodo/-/blob/master/8e28bc93a3380f9f0531dda37565d5a.png
 四流程图https://github.com/Sudoowodo/-/blob/master/06a236866a237f107bd55daca1b14c0.png
 五编程感想
 这次编程内容是关于string字符串的应用，在周一课上老师详细为我们讲了string字符串的各种应用，对比了stringbuffer和string字符串的区别和效率。通过这一次实验，我对java编程有了更加深刻的理解，这次的实验内容较为简单，我们还借此机会学习了在github上上传代码，因此这次实验收获颇为丰富。
